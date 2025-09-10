@@ -1,8 +1,19 @@
 # Example Readme
 The following chatgpt reply helped build this example
 ```https://chatgpt.com/share/68c1bec5-173c-8003-865c-c4d3956a6c8c```
+Go to the second prompt.   This is the part that was used by this example.  Make sure though that you install version 4 of express not version 5 or it will not work.
+```bash
+npm i express@4
+```
 
-## the server.js file
+## Running the application
+1. from the root folder, type ```node server.js```.
+2. Notice in the console that you see the url that the server is serving. ```http://localhost:4000```
+
+## Changing application
+When you change the code, run ```npm run build```
+
+## The Server Side
 Make sure to install express version 4.  The latest version wont work.
 ```
 npm i express@4
