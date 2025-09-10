@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>AngularCspNonce</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Angular CSP Nonce Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- (optional) Store it in a meta in case you want to read it later -->
+    <meta name="csp-nonce" content="__NONCE__" />
+  </head>
+  <body>
+    <!-- Option A: Angular picks up the nonce from here -->
+    <app-root ngCspNonce="__NONCE__"></app-root>
+  </body>
 </html>
