@@ -17,7 +17,7 @@ app.get('*', (req, res) => {
   // If you don't use inline scripts, 'script-src' can be just 'self'
   const csp = [
     "default-src 'self'",
-    "script-src 'self'",
+    `script-src 'self' 'nonce-${nonce}'`,
     `style-src 'self' 'nonce-${nonce}'`,
     "img-src 'self' data:",
     "font-src 'self'",

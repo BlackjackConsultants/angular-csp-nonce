@@ -1,7 +1,7 @@
 # Example Readme
 
 ## Running the application
-1. to build, from the root folder, type ```npm run build```.
+1. to build, from the root folder, type ```npm run watch```.
 2. to run, type ```npm run start``` 
 3. Notice in the console that you see the url that the server is serving. ```http://localhost:4000```
 
