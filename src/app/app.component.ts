@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <main class="shell">
       <h1>Angular CSP Nonce (Option A)</h1>
       <p class="badge">If you see this styled badge, the nonce worked.</p>
+      <div style="color: red;width: 300px;height: 300px;">testing this div</div>
     </main>
   `,
   styles: [`

@@ -7,8 +7,9 @@ npm i express@4
 ```
 
 ## Running the application
-1. from the root folder, type ```node server.js```.
-2. Notice in the console that you see the url that the server is serving. ```http://localhost:4000```
+1. to build, from the root folder, type ```npm run build```.
+2. to run, type ```npm run start``` 
+3. Notice in the console that you see the url that the server is serving. ```http://localhost:4000```
 
 ## Changing application
 When you change the code, run ```npm run build```
