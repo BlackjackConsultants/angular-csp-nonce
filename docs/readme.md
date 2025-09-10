@@ -53,6 +53,14 @@ app.listen(port, () => {
 });
 
 ```
+To run the server side code and serve the page run
+```javascript
+node server.js
+```
+Notice in the console that you see the url that the server is serving.
+```bash
+http://localhost:4000
+```
 ## ngCspNonce attribute
 
 ```html
