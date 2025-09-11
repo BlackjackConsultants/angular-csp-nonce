@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node index.js && ng serve",
+    "start": "node index.js && ng serve --watch",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "watch": "node index.js && ng build --watch --configuration development",
     "test": "ng test"
   },
   "prettier": {
